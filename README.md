@@ -1,4 +1,5 @@
 # smolagents_test
+This is a small repo testing the capabilities of the smolagents on a bookings website.
 
 ## Clone the repo
 ```bash
