@@ -1,6 +1,6 @@
 from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel
 
-model = HfApiModel()
+model = HfApiModel(model_id="deepseek-ai/DeepSeek-R1", provider="together")
 agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=model, additional_authorized_imports=[
     "selenium",
     "selenium.webdriver.common.keys",
